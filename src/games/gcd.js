@@ -7,5 +7,5 @@ export default () => {
         return NOD(y, x % y);
     }
     const answer = NOD(randomNum, randomNum2);
-    return [randomNum, randomNum2, answer];
+    return [`${randomNum} ${randomNum2}`, answer];
 };
