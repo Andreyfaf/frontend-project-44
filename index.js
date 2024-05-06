@@ -14,23 +14,23 @@ export default function gameBrain(game) {
 
   if (game === 'even') {
     console.log('Answer "yes" if the number is even, otherwise answer "no".');
-      func = () => gameEvenOrNo();
+    func = () => gameEvenOrNo();
   } else if (game === 'calc') {
     console.log('What is the result of the expression?');
-      func = () => gameCalculator();
+    func = () => gameCalculator();
   } else if (game === 'gcd') {
     console.log('Find the greatest common divisor of given numbers.');
-      func = () => gameFindGCD();
+    func = () => gameFindGCD();
   } else if (game === 'progression') {
     console.log('What number is missing in the progression?');
-      func = () => gameProgression();
+    func = () => gameProgression();
   } else if (game === 'prime') {
     console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
-      func = () => gameIsPrime();
+    func = () => gameIsPrime();
   } else {
     return;
   }
-  
+
   for (let i = 0; i < times; i += 1) {
     const [question, correct] = func();
     console.log(`Question: ${question}`);
