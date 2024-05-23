@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import gameBrain from '../index.js';
+import gameBrain from '../src/index.js';
 
 gameBrain('calc');

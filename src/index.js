@@ -1,10 +1,10 @@
 import readlineSync from 'readline-sync';
-import getName from './src/cli.js';
-import gameEvenOrNo from './src/games/even.js';
-import gameCalculator from './src/games/calc.js';
-import gameFindGCD from './src/games/gcd.js';
-import gameProgression from './src/games/progression.js';
-import gameIsPrime from './src/games/prime.js';
+import getName from './cli.js';
+import gameEvenOrNo from './games/even.js';
+import gameCalculator from './games/calc.js';
+import gameFindGCD from './games/gcd.js';
+import gameProgression from './games/progression.js';
+import gameIsPrime from './games/prime.js';
 
 export default function gameBrain(game) {
   console.log('Welcome to the Brain Games!');
