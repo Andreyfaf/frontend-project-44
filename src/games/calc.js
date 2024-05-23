@@ -1,5 +1,3 @@
-import index from "../index.js"
-
 export default () => {
   const randomNum = Math.round(Math.random() * 100);
   const randomNum2 = Math.round(Math.random() * 100);
